@@ -1,0 +1,15 @@
+GeneratorModel for yakindu::java {
+
+	statechart gameplay {
+
+		feature Outlet {
+			targetProject = "ca.mcgill.ecse223.kingdomino"
+			targetFolder = "src/main/java/"
+			libraryTargetFolder = "src/main/java"
+		}
+		
+		feature Naming {
+   			 basePackage = "ca.mcgill.ecse223.kingdomino.statemachine"
+		}
+	}
+}

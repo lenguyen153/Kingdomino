@@ -1,0 +1,206 @@
+{
+  "games": [
+    {
+      "numberOfPlayers": 4,
+      "maxPileSize": 48,
+      "nextPlayer": "Blue",
+      "players": [
+        {
+          "color": "Blue",
+          "kingdom": {
+            "territories": [
+              {
+                "x": 0,
+                "y": 1,
+                "id": 1,
+                "direction": "Right"
+              },
+              {
+                "x": 1,
+                "y": 0,
+                "id": 5,
+                "direction": "Down"
+              },
+              {
+                "x": 0,
+                "y": -1,
+                "id": 39,
+                "direction": "Left"
+              },
+              {
+                "x": -1,
+                "y": 0,
+                "id": 41,
+                "direction": "Up"
+              }
+            ]
+          }
+        },
+        {
+          "color": "Green",
+          "kingdom": {
+            "territories": [
+              {
+                "x": 1,
+                "y": 0,
+                "id": 2,
+                "direction": "Right"
+              },
+              {
+                "x": -2,
+                "y": 0,
+                "id": 9,
+                "direction": "Right"
+              },
+              {
+                "x": 0,
+                "y": -1,
+                "id": 15,
+                "direction": "Down"
+              },
+              {
+                "x": 0,
+                "y": -3,
+                "id": 21,
+                "direction": "Down"
+              }
+            ]
+          }
+        },
+        {
+          "color": "Yellow",
+          "kingdom": {
+            "territories": [
+              {
+                "x": 0,
+                "y": -1,
+                "id": 3,
+                "direction": "Down"
+              },
+              {
+                "x": 0,
+                "y": -3,
+                "id": 11,
+                "direction": "Down"
+              },
+              {
+                "x": 1,
+                "y": 0,
+                "id": 17,
+                "direction": "Right"
+              },
+              {
+                "x": 3,
+                "y": 0,
+                "id": 23,
+                "direction": "Right"
+              }
+            ]
+          }
+        },
+        {
+          "color": "Pink",
+          "kingdom": {
+            "territories": [
+              {
+                "x": 1,
+                "y": 0,
+                "id": 8,
+                "direction": "Right"
+              },
+              {
+                "x": 3,
+                "y": 0,
+                "id": 42,
+                "direction": "Right"
+              },
+              {
+                "x": 3,
+                "y": -1,
+                "id": 43,
+                "direction": "Down"
+              },
+              {
+                  "x": 5,
+                  "y": 0,
+                  "id": 44,
+                  "direction": "Right"
+              }
+            ]
+          }
+        }
+      ],
+      "nextDraft": {
+        "selections": [],
+        "ids": [
+          7,
+          21,
+          25,
+          28
+        ]
+      },
+      "currentDraft": {
+        "selections": [
+          {
+              "id": 22,
+              "player": "Pink"
+          },
+          {
+              "id": 29,
+              "player": "Yellow"
+          },
+          {
+              "id": 34,
+              "player": "Blue"
+          },
+          {
+              "id": 37,
+              "player": "Green"
+          }
+        ],
+        "ids": [
+          29,
+          34,
+          37,
+          44
+        ]
+      }
+    }
+  ],
+  "bonusOptions": [],
+  "currentGame": 0,
+  "users": [
+    {
+      "wonGames": 0,
+      "inGames": [
+        1
+      ],
+      "name": "User1",
+      "playedGames": 0
+    },
+    {
+      "wonGames": 0,
+      "inGames": [
+        2
+      ],
+      "name": "User2",
+      "playedGames": 0
+    },
+    {
+      "wonGames": 0,
+      "inGames": [
+        3
+      ],
+      "name": "User3",
+      "playedGames": 0
+    },
+    {
+      "wonGames": 0,
+      "inGames": [
+        4
+      ],
+      "name": "User4",
+      "playedGames": 0
+    }
+  ]
+}
